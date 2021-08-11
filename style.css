@@ -1,0 +1,141 @@
+body {
+    background-color: #121212;
+}
+#board-container {
+    display: inline-block;
+}
+#curr-player {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#curr-player-tiles {
+    display: flex;
+    height: 45px;
+}
+.square {
+    width: 45px;
+    height: 45px;
+    background-color: steelblue;
+    border: solid white 1px;
+}
+.sq_start {
+    width: 45px;
+    height: 45px;
+    background-color: seagreen;
+    border: solid white 1px;
+}
+.sq_tripleW {
+    width: 45px;
+    height: 45px;
+    background-color: orangered;
+    border: solid white 1px;
+}
+.sq_tripleL {
+    width: 45px;
+    height: 45px;
+    background-color: orange;
+    border: solid white 1px;   
+}
+.sq_doubleW {
+    width: 45px;
+    height: 45px;
+    background-color: slateblue;
+    border: solid white 1px;   
+}
+.sq_doubleL {
+    width: 45px;
+    height: 45px;
+    background-color: lightskyblue;
+    border: solid white 1px;    
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.sp_tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    word-wrap: break-word;
+    margin-left: 5%;
+    margin-top: 40%;
+    user-select: none;
+}
+.player-tile {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-color: seashell;
+    user-select: none;
+    border-radius: 5px;
+    border: solid goldenrod 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.player-tile p {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto;
+    color: black;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.player-tile span {
+    display: block;
+    margin-left: 75%;
+    color: black;
+    font-size: 10px
+}
+.player-tile:hover {
+    display: inline-block;
+    position: relative;
+    margin-top: -5px;
+}
+#tile-select {
+    background-color: slategray;
+}
+.curr-player-text {
+    display: block;
+    color: black;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+.hidden{
+    display: none;
+}
+
+.placed-tile {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-color: peachpuff;
+    user-select: none;
+    border: solid goldenrod 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.placed-tile p {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto;
+    color: black;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.placed-tile span {
+    display: block;
+    margin-left: 75%;
+    color: black;
+    font-size: 10px
+}
